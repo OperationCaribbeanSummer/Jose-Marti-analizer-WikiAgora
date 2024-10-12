@@ -1,0 +1,17 @@
+﻿/* TEAM */
+	Developer and designer:Javier Ramos Nistal
+	Contact: co2mm.esperanto@gmail.com
+	Facebook: @JaviRamosLab
+	Twitter: @JaviRamosLab
+	web: https://javiramoslab.com
+	From: La Habana, Cuba
+
+	Designer:
+	Facebook:
+	From:
+
+/* SITE */
+	Last update:2024/10/12
+	Language: Spanish
+	Doctype: HTML5
+	IDE: VSC, Notepad++, FileZilla, Photoshop, Ilustrator
