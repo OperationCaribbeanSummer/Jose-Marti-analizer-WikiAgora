@@ -6,7 +6,7 @@ Thank you for investing your time in contributing to our project! Any contributi
 
 - [OperationCaribbeanSummer.com/contributors](https://OperationCaribbeanSummer.com/contributors)
 - [CONTRIBUTORS.md](/CONTRIBUTORS.md)
-- [humans.txt](./public/humans.txt) and [web](OperationCaribbeanSummer.com/contributors)
+- [humans.txt](./public/humans.txt) and [web](https://OperationCaribbeanSummer.com/humans.txt)
   :sparkles:
 
 Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
@@ -29,7 +29,7 @@ These steps will guide you through contributing to this project:
 - Fork the repo
 - Clone it and install dependencies
   ```
-  git clone https://github.com/OperationCaribbeanSummer/
+  git clone https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora/
   npm install
   ```
 - Make changes
@@ -51,17 +51,17 @@ To get an overview of the project, read the [README](./README.md) file. Here are
 
 Navigate our codebase with confidence.
 
-Check to see what [types of contributions](/contributing/types-of-contributions.md) we accept before making changes. Some of them don't even require writing a single line of code :sparkles:.
+Check to see what [types of contributions](/types-of-contributions.md) we accept before making changes. Some of them don't even require writing a single line of code :sparkles:.
 
 ### Issues
 
 #### Create a new issue
 
-If you have an idea or enhancement: [search if an issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/OperationCaribbeanSummer//issues/new/choose).
+If you have an idea or enhancement: [search if an issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora/issues/new/choose).
 
 #### Solve an issue
 
-Scan through our [existing issues](https://github.com/OperationCaribbeanSummer//issues) to find one that interests you. You can narrow down the search using `labels` as filters. See "[Label reference](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference)" for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through our [existing issues](https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See "[Label reference](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference)" for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
 
 #### Make changes in a codespace
 
@@ -113,7 +113,7 @@ Now that you are part of the OperationCaribbeanSummer community.
 
 ## Submitting changes
 
-Please send a [GitHub Pull Request to OperationCaribbeanSummer](https://github.com/OperationCaribbeanSummer/OperationCaribbeanSummer/pull/new/main) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)). When you send a pull request, we will love you forever if you include RSpec examples. Please follow our coding conventions (below) and make sure all of your commits are atomic (one feature per commit). Read more at [How to Write a Git Commit Message](https://cbea.ms/git-commit/), [7 rules for commit](https://chris.beams.io/posts/git-commit).
+Please send a [GitHub Pull Request to OperationCaribbeanSummer](https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora/pull/new/main) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)). When you send a pull request, we will love you forever if you include RSpec examples. Please follow our coding conventions (below) and make sure all of your commits are atomic (one feature per commit). Read more at [How to Write a Git Commit Message](https://cbea.ms/git-commit/), [7 rules for commit](https://chris.beams.io/posts/git-commit).
 
 Always write a clear log message for your commits. One-line messages are fine for small changes, but bigger changes should look like this:
 
@@ -127,11 +127,11 @@ This is open source software. Consider the people who will read your code, and m
 
 Install slint and prettier, by atent about:
 
-- .editorconfig
-- .eslintignore
-- .eslintrc
-- .prettierignore
-- .prettierrc
+- `.editorconfig`
+- `.eslintignore`
+- `.eslintrc`
+- `.prettierignore`
+- `.prettierrc`
 
 ## Naming Convention and standards
 
