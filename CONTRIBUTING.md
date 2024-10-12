@@ -1,6 +1,6 @@
-# Welcome to GitHub docs contributing guide
+# Welcome to OperationCaribbeanSummer/WikiAgora contributing guide
 
-I'm really glad you're reading this, because we need volunteer developers to help this project come to fruition.
+I'm really glad you're reading this, because we need volunteer developers to help this project come to WikiAgora.
 
 Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on:
 
@@ -17,7 +17,7 @@ Here are some important resources:
 
 - [Our roadmap](http://OperationCaribbeanSummer.com/wish-list)
 - Mailing list: Join our [contact us](http://OperationCaribbeanSummer.com/contact)
-- Bugs? [our web Lighthouse](http://OperationCaribbeanSummer.com/bug) is where to report them
+- Bugs? [our web Lighthouse](http://OperationCaribbeanSummer.com/bug) is where to report them. How [report a bug](./SECURITY.md)
 
 ---
 
@@ -29,12 +29,12 @@ These steps will guide you through contributing to this project:
 - Fork the repo
 - Clone it and install dependencies
   ```
-  git clone https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora/
+  git clone https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora
   npm install
   ```
 - Make changes
 - Create tests
-- Send a Pull Request with a clear list of what you've done (read more [about pull requests](https://help.github.com/articles/about-pull-requests/)). Make sure all of your commits are atomic (one feature per commit).
+- Send a Pull Request with a clear list of what you've done. Make sure all of your commits are atomic (one feature per commit).
 
 ---
 
@@ -49,9 +49,9 @@ To get an overview of the project, read the [README](./README.md) file. Here are
 
 ## Getting started
 
-Navigate our codebase with confidence.
+Navigate our codebase with confidence. [codespaces overview](https://docs.github.com/en/codespaces/overview)
 
-Check to see what [types of contributions](/types-of-contributions.md) we accept before making changes. Some of them don't even require writing a single line of code :sparkles:.
+Check to see what [types of contributions](/contributing/types-of-contributions.md) we accept before making changes. Some of them don't even require writing a single line of code :sparkles:.
 
 ### Issues
 
@@ -79,7 +79,7 @@ For more information about using a codespace for working on GitHub documentation
 - Using the command line:
   - [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
 
-2. Install or update to **Node.js**, at the version specified in `.node-version`. For more information, see [the development guide](../contributing/development.md). Install or update **MongoDB**.
+2. Install or update to **Node.js**, at the version specified in `.node-version`. Install or update **MongoDB**.
 
 3. Install dependencies, setup enviromental variables and start with your changes!
 
@@ -113,7 +113,7 @@ Now that you are part of the OperationCaribbeanSummer community.
 
 ## Submitting changes
 
-Please send a [GitHub Pull Request to OperationCaribbeanSummer](https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora/pull/new/main) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)). When you send a pull request, we will love you forever if you include RSpec examples. Please follow our coding conventions (below) and make sure all of your commits are atomic (one feature per commit). Read more at [How to Write a Git Commit Message](https://cbea.ms/git-commit/), [7 rules for commit](https://chris.beams.io/posts/git-commit).
+Please send a [GitHub Pull Request to OperationCaribbeanSummer](https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora/pull/new/main) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)). When you send a pull request, we will love you forever if you include RSpec examples. Please follow our coding conventions (below) and make sure all of your commits are atomic (one feature per commit). Read more at [How to Write a Git Commit Message](https://cbea.ms/git-commit/).
 
 Always write a clear log message for your commits. One-line messages are fine for small changes, but bigger changes should look like this:
 
