@@ -1,0 +1,75 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": [
+    "javascript",
+    "typescript",
+    "node",
+    "vue",
+    "mongodb",
+    "custom-dev"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-dev",
+      "path": ".vscode/dictionaries/custom-dev.txt",
+      "description": "Internal project terms"
+    }
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    ".nuxt",
+    ".output",
+    "coverage",
+    "*.min.js",
+    "*.lock",
+    "**/vendor/**",
+    "**/generated/**"
+  ],
+  "flagWords": [
+    "hte",
+    "adn",
+    "recieve",
+    "funcion",
+    "variable"
+  ],
+  "allowCompoundWords": true,
+  "caseSensitive": false,
+  "words": [
+    "quasar",
+    "nuxtjs",
+    "valkey",
+    "kafkajs",
+    "mongoosejs",
+    "tailwindcss",
+    "expressjs",
+    "redis",
+    "eda",
+    "mvc",
+    "opensource",
+    "urllist",
+    "wikiagorasocial",
+    "redisclient",
+    "webhook",
+    "ratelimit",
+    "healthcheck",
+    "authmiddleware",
+    "dockerfile",
+    "javier",
+    "frontend",
+    "backend"
+  ],
+  "ignoreWords": [
+    "Nistal"
+  ],
+  "overrides": [
+    {
+      "filename": "**/*.{md,txt}",
+      "language": "en,es",
+      "dictionaries": [
+        "markdown"
+      ]
+    }
+  ]
+}

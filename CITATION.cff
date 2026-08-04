@@ -1,0 +1,52 @@
+cff-version: "1.2.0"
+title: "Jose-Marti-analyzer-WikiAgora"
+message: "To cite Jose-Marti-analyzer-WikiAgora in publications please use the metadata from this file."
+type: "software"
+abstract: "Tool for the classification, processing and analysis of texts written by or related to José Martí."
+authors:
+  - given-names: "Javier"
+    family-names: "Ramos Nistal"
+    website: "https://JaviRamosLab.com"
+    email: "co2mm.esperanto@gmail.com"
+  - name: "OperationCaribbeanSummer"
+    website: "https://OperationCaribbeanSummer.com"
+contact:
+  - family-names: "Javier"
+    given-names: "Ramos Nistal"
+    website: "https://JaviRamosLab.com"
+    email: "co2mm.esperanto@gmail.com"
+keywords:
+  - OperationCaribbeanSummer
+  - WikiAgora
+  - WikiAgoraSocial
+  - CivicTech
+  - democracy
+  - LiquidDemocracy
+  - eDemocracy
+  - OpenGovernment
+  - 44
+  - mlk
+  - mlk44
+  - AccountableGovernance
+  - CivicInnovation
+  - CollectiveIntelligence
+  - DeliberativeDemocracy
+  - DirectDemocracy
+  - eGovernance
+  - eParticipation
+  - GovernmentAsAPlatform
+  - OpenBudgets
+  - OpenData
+  - OpenDecisionMaking
+  - OpenGovernment
+  - OpenJustice
+  - OpenPolicy
+  - OpenSource
+  - ParticipatoryBudgeting
+  - ParticipatoryDemocracy
+  - TransparentGovernment
+version: "4.x.x"
+date-released: "2025-04-04"
+repository-code: "https://github.com/OperationCaribbeanSummer/Jose-Marti-analyzer-WikiAgora"
+url: "https://operationcaribbeansummer.com/projects/Jose-Marti-analyzer-WikiAgora"
+license: "MIT"

@@ -39,35 +39,35 @@ When reporting a potential security problem, please bear this in mind:
 
 ## CVE handling
 
-To ensure a comprehensive and detailed declaration of the issue, we generally
-prefer requesting CVE IDs ourselves, which usually happens after our analysis
-confirms the vulnerability.
+To ensure a comprehensive and detailed declaration of the issue, we generally prefer requesting CVE IDs ourselves, which usually happens after our analysis confirms the vulnerability.
 
-In case you have already obtained a CVE ID, do not forget to reference it in
-your report.
+In case you have already obtained a CVE ID, do not forget to reference it in your report.
 
 ## Credits
 
 Let us know if and how you wish to be credited for the finding.
 
-Your name, e-mail, company, etc. will be included as specified in the CVE
-report, as well as in the Git commit message patching the issue.
+Your name, e-mail, company, etc. will be included as specified in the CVE report, as well as in the Git commit message patching the issue.
 
 # Security Policy
 
 ## Supported Versions
 
-The following releases of the library are currently being supported with
-security updates.
+The following releases of the library are currently being supported with security updates.
 
 - Stable (Git _production_ branch)
 - Development (Git _main_ branch)
 
-Versions currently being supported with security updates.
-
 | Version | Supported          |
 | ------- | ------------------ |
-| 0.4.x   | :white_check_mark: |
-| < 0.4.4 | :x:                |
+| 4.x     | :white_check_mark: |
+| < 3.x   | :x:                |
+| < 2.x   | :x:                |
+| < 1.x   | :x:                |
 
 Older releases are no longer supported.
+
+v1 never launched
+v2 unbuilded, archived repos at [@javiramoslab](https://github.com/javiramoslab)
+v1 launch posposed and mixed with v4
+v4 beta (unstable, wip!)

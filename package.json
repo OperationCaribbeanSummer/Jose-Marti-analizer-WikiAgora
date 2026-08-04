@@ -1,0 +1,177 @@
+{
+  "name": "Jose-Marti-analizer-wikiagora",
+  "version": "4.0.0",
+  "description": "📖🔍-(jma)[josemartianalizer]{} Tool for the classification, processing and analysis of texts written by or related to Jose Marti.",
+  "keywords": [
+    "OperationCaribbeanSummer",
+    "WikiAgora",
+    "democracy",
+    "LiquidDemocracy",
+    "eDemocracy",
+    "44",
+    "mlk",
+    "mlk44",
+    "AccountableGovernance",
+    "CivicInnovation",
+    "CollectiveIntelligence",
+    "DeliberativeDemocracy",
+    "DirectDemocracy",
+    "eGovernance",
+    "eParticipation",
+    "GovernmentAsAPlatform",
+    "OpenBudgets",
+    "OpenData",
+    "OpenDecisionMaking",
+    "OpenJustice",
+    "OpenPolicy",
+    "OpenSource",
+    "ParticipatoryBudgeting",
+    "ParticipatoryDemocracy",
+    "TransparentGovernment",
+    "Literature",
+    "History",
+    "TextAnalysis",
+    "OpenData"
+  ],
+  "security": {
+    "contact": "co2mm.esperanto@gmail.com",
+    "policy": "https://github.com/OperationCaribbeanSummer/WikiAgoraSocial-utils/security/policy"
+  },
+  "docs": "https://operationcaribbeansummer.github.io/WikiAgoraSocial-utils",
+  "homepage": "https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora/issues?q=is_issue+label_bug",
+    "email": "co2mm.esperanto@gmail.com"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://OperationCaribbeanSummer.com/funding"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/OperationCaribbeanSummer"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/JaviRamosLab"
+    },
+    {
+      "type": "buymeacoffee",
+      "url": "https://www.buymeacoffee.com/JaviRamosLab"
+    },
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/JaviRamosLab"
+    },
+    {
+      "type": "liberapay",
+      "url": "https://liberapay.com/javiramoslab/"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/JaviRamosLab"
+    }
+  ],
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "build": "",
+    "coverage": "vitest --coverage",
+    "dev": "nodemon app.js",
+    "docs": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:preview": "vitepress preview docs",
+    "lint": "",
+    "lt": "npx localtunnel --port 8000",
+    "prepare": "husky",
+    "prod": "pm2 start app.js",
+    "release": "release-it",
+    "seed": "node scripts/seed-database.sh",
+    "sort": "npx sort-package-json",
+    "start": "nodemon app.js",
+    "test": "vitest",
+    "test:e2e": "vitest --testPattern=e2e",
+    "todo": "node run CHECKLIST-script.sh"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "@bwip-js/node": "^4.8.0",
+    "ajv": "^8.17.1",
+    "axios": "^1.13.2",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "croner": "^9.1.0",
+    "dayjs": "^1.11.19",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "fs-extra": "^11.3.2",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "zod": "^4.4.3",
+    "kafkajs": "^2.2.4",
+    "mongoose": "^8.19.3",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.10",
+    "qr-code-styling": "^1.9.2",
+    "redis": "^5.9.0",
+    "redoc-express": "^2.1.3",
+    "sharp": "^0.34.5",
+    "slugify": "^1.6.6",
+    "socket.io": "^4.8.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@commitlint/cz-commitlint": "^20.1.0",
+    "@faker-js/faker": "^9.9.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "morgan": "^1.10.1",
+    "standard": "^17.1.2",
+    "supertest": "^7.1.4"
+  },
+  "globalDependencies": {
+    "sort-package-json": "*3.6.1",
+    "localtunnel": "*2.0.2",
+    "@asyncapi/cli": "*6.0.0",
+    "pm2": "*7.0.1",
+    "vitepress": "*1.0.0",
+    "typescript": "*5.9.3"
+  },
+  "requirements": {
+    "node": "*20.0.0",
+    "npm": "*10.0.0",
+    "mongodb": "*8.2.0",
+    "redis": "*0.0.0",
+    "kafka": "*4.1.1",
+    "docker": "*24.0.0"
+  },
+  "devRequirements": {
+    "git": "*2.42.0",
+    "vscode": "*1.121.0",
+    "bruno": "*3.4.2"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Javier Ramos Nistal",
+    "email": "co2mm.esperanto@gmail.com",
+    "url": "https://JaviRamosLab.com"
+  }
+}

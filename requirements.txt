@@ -1,0 +1,11 @@
+bruno
+docker
+git
+grafana
+kafka
+mongodb
+nodejs
+npm
+prometheus
+valkey
+vscode
