@@ -1,0 +1,1 @@
+# npx cspell --gitignore --cache "**/*.{js,ts,vue,md}"

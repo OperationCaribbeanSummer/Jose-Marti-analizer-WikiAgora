@@ -1,0 +1,5 @@
+{
+  "editor.defaultFormatter": "standard.vscode-standard",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false
+}
