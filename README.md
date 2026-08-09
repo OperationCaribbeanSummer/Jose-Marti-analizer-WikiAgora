@@ -155,6 +155,8 @@
 [![check OpenAPI-Specification](https://img.shields.io/badge/%E2%9C%93_OpenAPI-Specification-brightgreen.svg)](https://github.com/OAI/OpenAPI-Specification)
 [![check AsyncAPI-Specification](https://img.shields.io/badge/%E2%9C%93_AsyncAPI-Specification-brightgreen.svg)](https://www.asyncapi.com)
 [![SemVer](https://img.shields.io/badge/%E2%9C%93_version--controlled-SemVer-brightgreen.svg)](https://semver.org)
+[![Formatted with Biome](https://img.shields.io/badge/%E2%9C%93_Formatted-with-Biome-brightgreen.svg)](https://biomejs.dev/)
+[![Linted with Biome](https://img.shields.io/badge/%E2%9C%93_Linted-with-Biome-brightgreen.svg)](https://biomejs.dev/)
 
 </details>
 
@@ -204,10 +206,11 @@
   <img src="./public/logos/commitlint.svg" alt="commitlint.svg" class="logo44" width="44" height="44">
   <img src="./public/logos/conventional-commit.svg" alt="conventional-commit.svg" class="logo44" width="44" height="44">
   <img src="./public/logos/eslint.svg" alt="eslint.svg" class="logo44" width="44" height="44">
-  <img src="./public/logos/standardjs.svg" alt="standardjs.svg" class="logo44" width="44" height="44">
+  <img src="./public/logos/biome.svg" alt="biome.svg" class="logo44" width="44" height="44">
   <img src="./public/logos/opentelemetry.svg" alt="opentelemetry.svg" class="logo44" width="44" height="44">
   <img src="./public/logos/vitepress.svg" alt="vitepress.svg" class="logo44" width="44" height="44">
   <img src="./public/logos/vitest.svg" alt="vitest.svg" class="logo44" width="44" height="44">
+<img src="./public/logos/zod.svg" alt="zod.svg" class="logo44" width="44" height="44">
 </div>
 
 ---
@@ -484,7 +487,7 @@ WikiAgora is built with modern, robust technologies for scalability and maintain
 - **semantic-release** - Automated version management and package publishing based on commit history - [npmjs.com/package/semantic-release](https://npmjs.com/package/semantic-release)
 - **sharp** - High-performance image processing library - [npmjs.com/package/sharp](https://npmjs.com/package/sharp)
 - **socket.io** - Real-time bidirectional event-based communication library - [npmjs.com/package/socket.io](https://npmjs.com/package/socket.io)
-- **StandardJS** - Code style enforcement - [npmjs.com/package/standard](https://npmjs.com/package/standard)
+- **@biomejs/biome** - Code style enforcement - [npmjs.com/package/@biomejs/biome](https://npmjs.com/package/@biomejs/biome)
 - **SuperTest** - API integration testing - [npmjs.com/package/supertest](https://npmjs.com/package/supertest)
 - **uuid** - Generate RFC‑compliant UUIDs (v1, v3, v4, v5) - [npmjs.com/package/uuid](https://npmjs.com/package/uuid)
 - **VitePress** - Documentation generator - [npmjs.com/package/vitepress](https://npmjs.com/package/vitepress)
@@ -1609,7 +1612,7 @@ What actually happens
 
 We maintain consistent code quality using automated tools.
 
-**Tools**: Prettier, ESLint, StandardJS, markdownlint, Husky, Commitlint
+**Tools**: Biome, ESLint, StandardJS, markdownlint, Husky, Commitlint
 
 ```bash
 # Format code
