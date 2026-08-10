@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./public/assets/banner.svg" alt="WikiAgora Banner" width="100%">
+<img src="./public/banner.svg" alt="WikiAgora Banner" width="100%">
 
 [![followers](https://custom-icon-badges.demolab.com/github/followers/OperationCaribbeanSummer?logo=person-add&style=social&logoColor=black)](https://github.com/org/OperationCaribbeanSummer)
 ![GitHub stars](https://custom-icon-badges.demolab.com/github/stars/OperationCaribbeanSummer/jose-marti-analyzer-WikiAgora?label=Stars&logo=star&logoColor=ffffff&labelColor=282828&color=663399&style=flat)

@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1600"
+   height="900"
+   viewBox="0 0 1600 900"
+   version="1.1"
+   id="svg73"
+   sodipodi:docname="banner.svg"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview73"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.36219581"
+     inkscape:cx="1027.0688"
+     inkscape:cy="432.08672"
+     inkscape:window-width="1024"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg73" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="p">
+      <stop
+         stop-color="#663399"
+         id="stop1" />
+      <stop
+         offset=".5"
+         stop-color="#a66cff"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#663399"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#p"
+       id="linearGradient75"
+       gradientTransform="scale(12.529964,0.07980869)"
+       x1="57.861299"
+       y1="4918.0109"
+       x2="120.51112"
+       y2="4918.0109"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#p"
+       id="linearGradient76"
+       gradientTransform="scale(3.2496246,0.30772785)"
+       x1="186.96953"
+       y1="497.92669"
+       x2="446.20538"
+       y2="497.92669"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#p"
+       id="linearGradient77"
+       gradientTransform="scale(0.872461,1.146183)"
+       x1="1628.0129"
+       y1="182.76004"
+       x2="1663.8248"
+       y2="182.76004"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#p"
+       id="linearGradient78"
+       gradientTransform="scale(2.9453084,0.33952302)"
+       x1="206.28766"
+       y1="451.29756"
+       x2="492.85918"
+       y2="451.29756"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#p"
+       id="linearGradient1"
+       gradientTransform="matrix(13.038405,0,0,0.0766965,0,-1.25)"
+       x1="32.979495"
+       y1="9544.1123"
+       x2="111.20992"
+       y2="9544.1123"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <rect
+     width="1600"
+     height="900"
+     fill="#000000"
+     id="rect3"
+     x="0"
+     y="2"
+     style="display:inline" />
+  <!-- layered circuit frame -->
+  <g
+     fill="none"
+     stroke="#663399"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="g9"
+     style="display:inline"
+     inkscape:label="corners">
+    <path
+       stroke-width="7"
+       d="M 22,150 V 42 Q 22,20 44,20 H 214 M 22,750 v 108 q 0,22 22,22 H 214 M 1578,150 V 42 q 0,-22 -22,-22 h -170 m 192,730 v 108 q 0,22 -22,22 h -170"
+       id="path3" />
+    <path
+       stroke-width="4"
+       d="M 42,165 V 65 Q 42,45 62,45 H 182 L 214,17 M 42,735 v 100 q 0,20 20,20 h 120 l 32,28 M 1558,165 V 65 q 0,-20 -20,-20 h -120 l -32,-28 m 172,718 v 100 q 0,20 -20,20 h -120 l -32,28"
+       id="path4" />
+    <path
+       stroke-width="3"
+       d="M 62,180 V 88 Q 62,70 80,70 h 92 L 204,38 M 62,720 v 92 q 0,18 18,18 h 92 l 32,32 M 1538,180 V 88 q 0,-18 -18,-18 h -92 l -32,-32 m 142,682 v 92 q 0,18 -18,18 h -92 l -32,32"
+       id="path5" />
+    <path
+       stroke-width="4"
+       stroke-dasharray="2, 17"
+       d="M 250,34 H 1350 M 250,866 h 450 m 200,0 h 450 M 30,260 V 640 M 1570,260 v 380"
+       id="path6" />
+    <circle
+       cx="214"
+       cy="20"
+       r="10"
+       fill="#000000"
+       stroke-width="5"
+       id="circle6" />
+    <circle
+       cx="1386"
+       cy="20"
+       r="10"
+       fill="#000000"
+       stroke-width="5"
+       id="circle7" />
+    <circle
+       cx="214"
+       cy="880"
+       r="10"
+       fill="#000000"
+       stroke-width="5"
+       id="circle8" />
+    <circle
+       cx="1386"
+       cy="880"
+       r="10"
+       fill="#000000"
+       stroke-width="5"
+       id="circle9" />
+  </g>
+  <g
+     fill="#663399"
+     font-family="monospace"
+     font-size="38px"
+     font-weight="900"
+     id="g11"
+     style="display:inline"
+     inkscape:label="borders">
+    <text
+       x="250"
+       y="55"
+       id="text9">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</text>
+    <text
+       x="250"
+       y="895"
+       id="text10">^^^^^^^^^^^^^^^^^^^^</text>
+    <text
+       x="900"
+       y="895"
+       id="text11">^^^^^^^^^^^^^^^^^^^^</text>
+  </g>
+  <!-- code side rails -->
+  <g
+     fill="#ffffff"
+     font-family="monospace"
+     font-size="31px"
+     font-weight="900"
+     id="g23"
+     style="display:inline"
+     inkscape:label="codes">
+    <text
+       x="82"
+       y="130"
+       id="text12">&lt;/&gt;</text>
+    <text
+       x="82"
+       y="177"
+       id="text13">&lt;/&gt;</text>
+    <text
+       x="82"
+       y="224"
+       id="text14">&lt;/&gt;</text>
+    <text
+       x="1510"
+       y="130"
+       id="text15">&lt;/&gt;</text>
+    <text
+       x="1510"
+       y="177"
+       id="text16">&lt;/&gt;</text>
+    <text
+       x="1510"
+       y="224"
+       id="text17">&lt;/&gt;</text>
+    <text
+       x="32"
+       y="610"
+       id="text18">&lt;/&gt;</text>
+    <text
+       x="32"
+       y="657"
+       id="text19">&lt;/&gt;</text>
+    <text
+       x="32"
+       y="704"
+       id="text20">&lt;/&gt;</text>
+    <text
+       x="1508"
+       y="610"
+       id="text21">&lt;/&gt;</text>
+    <text
+       x="1508"
+       y="657"
+       id="text22">&lt;/&gt;</text>
+    <text
+       x="1508"
+       y="704"
+       id="text23">&lt;/&gt;</text>
+  </g>
+  <!-- left logo -->
+  <g
+     transform="translate(110 205)"
+     fill="none"
+     id="g27"
+     inkscape:label="logo">
+    <g
+       id="g49-0"
+       transform="matrix(2.2214227,0,0,2.2214227,-21.00841,46.00173)"
+       inkscape:label="44">
+      <path
+         d="m 200.9,0.45 -101,200 -99,-200"
+         style="stroke:#ffffff;stroke-width:2px;stroke-miterlimit:10;stroke-opacity:1"
+         id="path1-0" />
+      <path
+         d="M 97.76,117.46 81.74,84.88 45.72,79.57 71.86,54.32 65.81,18.55 97.98,35.52 130.26,18.73 124,54.46 l 26.01,25.39 -36.05,5.12 z"
+         style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+         id="path2-9" />
+    </g>
+  </g>
+  <!-- top git history -->
+  <g
+     font-family="monospace"
+     id="g43"
+     inkscape:label="versions"
+     transform="translate(0,-34)">
+    <g
+       fill="none"
+       stroke="url(#p)"
+       stroke-width="6"
+       id="g29"
+       style="stroke:url(#linearGradient78)">
+      <path
+         d="m 610,155 55,75 h 785"
+         id="path28"
+         style="stroke:url(#linearGradient76)" />
+      <path
+         d="m 1450,230 -28,-18 m 28,18 -28,18"
+         id="path29"
+         style="stroke:url(#linearGradient77)" />
+    </g>
+    <g
+       fill="#663399"
+       stroke="#a66cff"
+       stroke-width="3"
+       id="g34">
+      <circle
+         cx="610"
+         cy="155"
+         r="18"
+         id="circle29" />
+      <circle
+         cx="700"
+         cy="230"
+         r="13"
+         id="circle30" />
+      <circle
+         cx="850"
+         cy="230"
+         r="13"
+         id="circle31" />
+      <circle
+         cx="1020"
+         cy="230"
+         r="15"
+         id="circle32" />
+      <circle
+         cx="1160"
+         cy="230"
+         r="15"
+         id="circle33" />
+      <circle
+         cx="1320"
+         cy="230"
+         r="15"
+         id="circle34" />
+    </g>
+    <g
+       fill="#ffffff"
+       font-size="24px"
+       font-weight="900"
+       id="g41"
+       inkscape:label="versions-text"
+       transform="matrix(1,0,0,1.0767568,32,49.373556)">
+      <text
+         x="665"
+         y="112"
+         fill="#a66cff"
+         id="text34"
+         inkscape:label="v1">v1.0.0</text>
+      <text
+         x="835"
+         y="112"
+         fill="#a66cff"
+         id="text36"
+         inkscape:label="v2">v2.0.0</text>
+      <text
+         x="1010"
+         y="112"
+         fill="#a66cff"
+         id="text38"
+         inkscape:label="v3">v3.0.0</text>
+      <text
+         x="1170"
+         y="112"
+         fill="#a66cff"
+         id="text40"
+         inkscape:label="v4.4.4">v4.4.4</text>
+    </g>
+  </g>
+  <!-- brand -->
+  <g
+     font-family="monospace"
+     font-weight="900"
+     id="g49"
+     inkscape:label="wikiagora+reponame"
+     transform="matrix(1.0818538,0,0,0.99941896,-124.5175,0.2545631)">
+    <text
+       x="690"
+       y="350"
+       font-size="92px"
+       fill="#663399"
+       id="text43">&lt;/</text>
+    <text
+       x="815.16357"
+       y="346.8183"
+       font-size="107.225px"
+       fill="#ffffff"
+       id="text44"
+       style="stroke-width:1.16548">WikiAgora</text>
+    <text
+       x="1408"
+       y="350"
+       font-size="92px"
+       fill="#663399"
+       id="text45">&gt;</text>
+    <path
+       d="m 725,395 h 785"
+       stroke="url(#p)"
+       stroke-width="5"
+       fill="none"
+       id="path45"
+       style="stroke:url(#linearGradient75)" />
+    <circle
+       cx="725"
+       cy="395"
+       r="10"
+       fill="#000000"
+       stroke="#663399"
+       stroke-width="5"
+       id="circle45" />
+    <circle
+       cx="1510"
+       cy="395"
+       r="10"
+       fill="#000000"
+       stroke="#663399"
+       stroke-width="5"
+       id="circle46" />
+    <path
+       d="m 697.20226,425.16593 h 769.45664 l 35.1752,31.93716 v 104.79382 l -35.1752,31.93716 H 697.20226 L 662.0271,561.89691 V 457.10309 Z"
+       fill="#000000"
+       stroke="#663399"
+       stroke-width="7"
+       id="path46" />
+    <text
+       x="1082"
+       y="535"
+       font-size="88px"
+       fill="#ffffff"
+       letter-spacing="4"
+       text-anchor="middle"
+       id="text46"
+       inkscape:label="reponame">jose-marti</text>
+  </g>
+  <!-- lower git graph -->
+  <g
+     font-family="monospace"
+     id="g70"
+     inkscape:label="git">
+    <g
+       fill="none"
+       stroke="url(#p)"
+       stroke-width="6"
+       id="g52">
+      <path
+         d="M 430,733.75 H 1450"
+         id="path49"
+         style="stroke:url(#linearGradient1)" />
+      <path
+         d="m 1450,735 -30,-20 m 30,20 -30,20"
+         id="path50"
+         style="display:inline" />
+      <path
+         d="m 570,735 q 80,65 190,65 h 320 q 80,0 160,-65"
+         id="path51"
+         style="display:inline" />
+      <path
+         d="m 570,735 q 80,35 130,65 m 540,-65 q -60,35 -120,65"
+         stroke-dasharray="3, 10"
+         stroke-width="4"
+         id="path52"
+         style="display:inline" />
+    </g>
+    <g
+       fill="#663399"
+       stroke="#fff"
+       stroke-width="3"
+       id="g58">
+      <circle
+         cx="430"
+         cy="735"
+         r="16"
+         id="circle52" />
+      <circle
+         cx="570"
+         cy="735"
+         r="16"
+         id="circle53" />
+      <circle
+         cx="700"
+         cy="800"
+         r="16"
+         id="circle54" />
+      <circle
+         cx="900"
+         cy="800"
+         r="16"
+         id="circle55" />
+      <circle
+         cx="1120"
+         cy="800"
+         r="16"
+         id="circle56" />
+      <circle
+         cx="1240"
+         cy="735"
+         r="16"
+         id="circle57" />
+      <circle
+         cx="1360"
+         cy="735"
+         r="16"
+         id="circle58" />
+    </g>
+    <g
+       fill="#000"
+       stroke="#a66cff"
+       stroke-width="5"
+       id="g61">
+      <circle
+         cx="570"
+         cy="735"
+         r="24"
+         id="circle59" />
+      <circle
+         cx="900"
+         cy="800"
+         r="23"
+         id="circle60" />
+      <circle
+         cx="1240"
+         cy="735"
+         r="24"
+         id="circle61" />
+    </g>
+    <g
+       fill="#fff"
+       font-size="22"
+       font-weight="900"
+       id="g68"
+       inkscape:label="text">
+      <text
+         x="365.30527"
+         y="791.51221"
+         fill="#a66cff"
+         id="text61"
+         inkscape:label="master"
+         style="font-size:34.5082px;stroke-width:1.56855"><tspan
+           sodipodi:role="line"
+           id="tspan74"
+           x="365.30527"
+           y="791.51221"
+           style="stroke-width:1.56855">master</tspan></text>
+      <text
+         x="664"
+         y="660"
+         fill="#a66cff"
+         id="text63"
+         inkscape:label="v1">v1</text>
+      <text
+         x="632"
+         y="691"
+         id="text64"
+         inkscape:label="liquid-democracy">Liquid-Democracy</text>
+      <text
+         x="988"
+         y="660"
+         fill="#a66cff"
+         id="text65"
+         inkscape:label="v2">v2</text>
+      <text
+         x="896"
+         y="689"
+         id="text66"
+         inkscape:label="radical-transparency">Radical-Transparency</text>
+      <text
+         x="1210"
+         y="656"
+         fill="#a66cff"
+         id="text67"
+         inkscape:label="v3">v3</text>
+      <text
+         x="1200"
+         y="687"
+         id="text68"
+         inkscape:label="perfect-traceability">Perfect-Traceability</text>
+    </g>
+  </g>
+  <!-- legend -->
+  <!-- bottom badge -->
+  <g
+     transform="translate(760 850)"
+     id="g73">
+    <path
+       d="M0 18L18 0h64l18 18-18 18H18z"
+       fill="#000"
+       stroke="#663399"
+       stroke-width="4"
+       id="path72" />
+    <text
+       x="29"
+       y="25"
+       fill="#fff"
+       font-family="monospace"
+       font-size="21"
+       font-weight="900"
+       id="text73">&lt;/&gt;</text>
+  </g>
+</svg>
