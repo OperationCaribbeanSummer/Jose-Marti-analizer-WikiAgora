@@ -203,7 +203,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.5.7",
     "@commitlint/cli": "^20.1.0",
-    "@commitlint/config-conventional": "^20.0.0",
+    "@commitlint/config-conventional": "^21.2.0",
     "@commitlint/cz-commitlint": "^20.1.0",
     "@faker-js/faker": "^9.9.0",
     "cz-conventional-changelog": "^3.3.0",
