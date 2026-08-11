@@ -30,22 +30,16 @@
     "TransparentGovernment",
     "Literature",
     "History",
-    "TextAnalysis",
-    "OpenData"
+    "TextAnalysis"
   ],
-  "security": {
-    "contact": "co2mm.esperanto@gmail.com",
-    "policy": "https://github.com/OperationCaribbeanSummer/WikiAgoraSocial-utils/security/policy"
-  },
-  "docs": "https://operationcaribbeansummer.github.io/WikiAgoraSocial-utils",
   "homepage": "https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora#readme",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora.git"
-  },
   "bugs": {
     "url": "https://github.com/OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora/issues?q=is_issue+label_bug",
     "email": "co2mm.esperanto@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OperationCaribbeanSummer/Jose-Marti-analizer-WikiAgora.git"
   },
   "funding": [
     {
@@ -78,26 +72,99 @@
     }
   ],
   "license": "MIT",
+  "author": {
+    "name": "Javier Ramos Nistal",
+    "email": "co2mm.esperanto@gmail.com",
+    "url": "https://JaviRamosLab.com"
+  },
   "main": "app.js",
   "scripts": {
-    "build": "",
-    "coverage": "vitest --coverage",
-    "dev": "nodemon app.js",
+    "analyze": "webpack-bundle-analyzer dist/static/js/main.js",
+    "backup": "node scripts/backup.js",
+    "build": "npm run build:server",
+    "build:server": "rimraf dist && babel src --out-dir dist --extensions .js,.jsx",
+    "changelog:update": "auto-changelog --hide-credit --overwrite",
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "clean": "rimraf dist coverage .nyc_output",
+    "clean:deps": "rimraf node_modules package-lock.json",
+    "commit": "cz",
+    "config:env": "node -e \"console.log('Environment:', process.env.NODE_ENV || 'development'); console.log('Port:', process.env.PORT || 4444);\"",
+    "config:show": "node -e \"console.log(JSON.stringify(require('./config'), null, 2));\"",
+    "config:validate": "node -e \"require('./config'); console.log('Configuration loaded successfully');\"",
+    "coverage": "vitest run --coverage",
+    "db:connect": "node -e \"require('./config/db').connectDB()\"",
+    "db:migrate": "node scripts/migrate-db.js",
+    "db:migrate:status": "node scripts/check-migration-status.js",
+    "db:migrate:up": "node scripts/run-migrations.js",
+    "db:models:generate": "node scripts/generate-models.js",
+    "db:reset": "node scripts/reset-db.js",
+    "db:schema:dump": "node scripts/dump-schema.js",
+    "db:seed": "node scripts/run-seeds.js",
+    "db:seed:run": "node scripts/seed-database.sh",
+    "dev": "node --watch app.js",
+    "dev:debug": "node --inspect app.js",
+    "dev:watch": "node --watch app.js",
+    "docker:build": "docker build -t wikiagora .",
+    "docker:dev": "docker-compose -f docker-compose.dev.yml up",
+    "docker:prod": "docker-compose -f docker-compose.prod.yml up -d",
+    "docker:run": "docker run -p 4444:4444 wikiagora",
+    "docker:stop": "docker-compose down",
     "docs": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:dev": "vitepress dev docs",
     "docs:preview": "vitepress preview docs",
-    "lint": "",
-    "lt": "npx localtunnel --port 8000",
-    "prepare": "husky",
-    "prod": "pm2 start app.js",
+    "docs:serve": "vitepress serve docs",
+    "export": "node scripts/export-data.js",
+    "format": "biome format --write .",
+    "format:check": "biome format --check .",
+    "import": "node scripts/import-data.js",
+    "install:clean": "npm run clean:deps && npm install",
+    "licenses": "npx license-checker --production --onlyAllow=\"MIT;ISC;BSD-3-Clause;Apache-2.0\"",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "lint-ci": "biome ci .",
+    "lt": "npx localtunnel --port 4444",
+    "monitor": "pm2 start app.js --name wikiagora",
+    "monitor:logs": "pm2 logs wikiagora",
+    "monitor:restart": "pm2 restart wikiagora",
+    "monitor:status": "pm2 status",
+    "monitor:stop": "pm2 stop wikiagora",
+    "ngrok": "ngrok http 4444",
+    "openapi:bundle": "node openapi/scripts/bundle.js",
+    "openapi:export": "npx redoc-cli build openapi/openapi.yaml",
+    "openapi:serve": "npx redoc-cli serve openapi/openapi.yaml",
+    "openapi:validate": "npx @apidevtools/swagger-cli validate openapi/openapi.yaml",
+    "pre-commit": "lint-staged",
+    "prepare": "husky install",
+    "prod": "pm2 start app.js --name wikiagora --env production",
+    "prod:logs": "pm2 logs wikiagora",
+    "prod:restart": "pm2 restart wikiagora",
+    "prod:status": "pm2 status",
+    "prod:stop": "pm2 stop wikiagora",
     "release": "release-it",
+    "release:major": "release-it major",
+    "release:minor": "release-it minor",
+    "release:patch": "release-it patch",
+    "security": "npm audit --audit-level high",
+    "security:fix": "npm audit fix",
     "seed": "node scripts/seed-database.sh",
+    "size": "size-limit",
     "sort": "npx sort-package-json",
-    "start": "nodemon app.js",
-    "test": "vitest",
-    "test:e2e": "vitest --testPattern=e2e",
-    "todo": "node run CHECKLIST-script.sh"
+    "spell": "cspell --cache --gitignore \"**/*.{ts,js,md,json,yml}\"",
+    "start": "node --watch app.js",
+    "syncpack": "syncpack list-mismatches",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:integration": "vitest run --config ./vitest.integration.config.js",
+    "test:run": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:unit": "vitest run --typecheck.enabled=false",
+    "test:watch": "vitest",
+    "todo": "node scripts/checklist.js",
+    "validate": "concurrently \"npm:lint\" \"npm:format:check\" \"npm:test\"",
+    "validate:ci": "concurrently \"npm:lint\" \"npm:format:check\" \"npm:test:coverage\""
   },
   "config": {
     "commitizen": {
@@ -106,6 +173,7 @@
   },
   "dependencies": {
     "@bwip-js/node": "^4.8.0",
+    "@operationcaribbeansummer/wikiagorasocial-utils": "^4.3.0",
     "ajv": "^8.17.1",
     "axios": "^1.13.2",
     "compression": "^1.8.1",
@@ -113,13 +181,12 @@
     "cors": "^2.8.5",
     "croner": "^9.1.0",
     "dayjs": "^1.11.19",
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.4.2",
     "express": "^4.21.2",
     "express-mongo-sanitize": "^2.2.0",
     "fs-extra": "^11.3.2",
     "helmet": "^8.1.0",
     "hpp": "^0.2.3",
-    "zod": "^4.4.3",
     "kafkajs": "^2.2.4",
     "mongoose": "^8.19.3",
     "multer": "^2.0.2",
@@ -130,9 +197,11 @@
     "sharp": "^0.34.5",
     "slugify": "^1.6.6",
     "socket.io": "^4.8.1",
-    "uuid": "^13.0.0"
+    "uuid": "^13.0.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.5.7",
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@commitlint/cz-commitlint": "^20.1.0",
@@ -140,9 +209,21 @@
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.7",
     "morgan": "^1.10.1",
+    "semantic-release": "25.0.5",
     "standard": "^17.1.2",
-    "supertest": "^7.1.4"
+    "supertest": "^7.1.4",
+    "vitest": "^4.1.6"
   },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "devRequirements": {
+    "git": "*2.42.0",
+    "vscode": "*1.121.0",
+    "bruno": "*3.4.2"
+  },
+  "docs": "https://operationcaribbeansummer.github.io/WikiAgoraSocial-utils",
   "globalDependencies": {
     "sort-package-json": "*3.6.1",
     "localtunnel": "*2.0.2",
@@ -151,6 +232,7 @@
     "vitepress": "*1.0.0",
     "typescript": "*5.9.3"
   },
+  "readmeFilename": "README.md",
   "requirements": {
     "node": "*20.0.0",
     "npm": "*10.0.0",
@@ -159,19 +241,8 @@
     "kafka": "*4.1.1",
     "docker": "*24.0.0"
   },
-  "devRequirements": {
-    "git": "*2.42.0",
-    "vscode": "*1.121.0",
-    "bruno": "*3.4.2"
-  },
-  "engines": {
-    "node": ">=20.0.0",
-    "npm": ">=10.0.0"
-  },
-  "readmeFilename": "README.md",
-  "author": {
-    "name": "Javier Ramos Nistal",
-    "email": "co2mm.esperanto@gmail.com",
-    "url": "https://JaviRamosLab.com"
+  "security": {
+    "contact": "co2mm.esperanto@gmail.com",
+    "policy": "https://github.com/OperationCaribbeanSummer/WikiAgoraSocial-utils/security/policy"
   }
 }
